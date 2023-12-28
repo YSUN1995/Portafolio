@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>YSUN Portafolio</title>
+    <link rel="stylesheet" href="Estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO  -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+               <a href="#inicio">Y.S.U.N.</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION DE INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="Imagenes/Sebas1.jpg" alt="">
+            </div>
+            <h1>YHOAN SEBASTIAN URREGO N.</h1>
+            <h2>Desarrolador Web</h2>
+            <h2>Administrador de Empresas</h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/yhoanysun/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/YSUN1995" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mi</h2>
+            <p><span>Hola, Soy Yhoan Sebastian Urrego. </span>Administrador de Empresas con Conocimientos en Programacion y Desarrollo Web. Soy una persona con 2 lados importantes de la moneda que son: <span>Creativo</span> como tambien <span>Lógico</span>. Te ayudo a plasmar tus ideas en sitios que cumplan con tus requisitos solicitados. En fin.. A veces las palabras se las lleva el viento. <span>Sigue deslizando</span> y conoce mas de mi y mi trabajo. ¡Gracias!.</p>
+
+            <div class="fila">
+                <!-- DATOS PERSONALES -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li><strong>Cumpleaños</strong> 29-08-1995</li>
+                    </ul>
+                    <ul>
+                        <li><strong>Celular</strong> 320-259-03-62 / 316-211-27-55</li>
+                    </ul>
+                    <ul>
+                        <li><strong>Email</strong> ysun1995@gmail.com</li>
+                    </ul>
+                </div>
+                <!-- INTERESES -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="intereses">
+                            <i class="fas fa-gamepad"></i>
+                            <span>Juegos</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fas fa-headphones"></i>
+                            <span>Musica</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fas fa-biking"></i>
+                            <span>Bicicleta</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-sharp fa-solid fa-person-running"></i>
+                            <span>Bailar</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-cloud-arrow-up"></i>
+                            <span>Autodidacta</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>Fotos</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-motorcycle"></i>
+                            <span>Motos</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-paw"></i>
+                            <span>Animales</span>
+                        </div>
+                    </div>
+                </div>
+                <button>
+                    <a href="Documentos/CV YHOAN SEBASTIAN URREGO NAVARRETE.pdf" download="CV YHOAN SEBASTIAN URREGO NAVARRETE.pdf"> DESCARGAR CV <i class="fa-solid fa-download"></i></a>
+                    <span class="overlay"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- tecnical skills -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Autodidacta</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proactivo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Planificador</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educacion</h3>
+                    <div class="item izq">
+                        <h4>Diplomado Desarrollo de Aplicaciones Web</h4>
+                        <span class="casa">Universidad del Bosque - MinTic</span>
+                        <span class="fecha">2021</span>
+                        <p>Bogotá D.C.</p>
+                        <div class="conectori">
+                            <div class="circuloi">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Pregrado Administración De Empresas</h4>
+                        <span class="casa">Politecnico Grancolombiano</span>
+                        <span class="fecha">2019</span>
+                        <p>Bogotá D.C.</p>
+                        <div class="conectori">
+                            <div class="circuloi">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Diplomado Dirección Financiera</h4>
+                        <span class="casa">Politécnico Superior De Colombia</span>
+                        <span class="fecha">2016</span>
+                        <p>Bogotá D.C.</p>
+                        <div class="conectori">
+                            <div class="circuloi">
+        
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Tecnólogo Gestión Bancaria y de entidades Financieras</h4>
+                        <span class="casa">Politécnico Grancolombiano Convenio SENA</span>
+                        <span class="fecha">2015</span>
+                        <p>Bogotá D.C.</p>
+                        <div class="conectori">
+                            <div class="circuloi">
+        
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Técnico Ingeniería de sistemas</h4>
+                        <span class="casa">Colegio Paulo Freire - Unipanamericana</span>
+                        <span class="fecha">2013</span>
+                        <p>Bogotá D.C.</p>
+                        <div class="conectori">
+                            <div class="circuloi">
+        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de Trabajo</h3>
+                    <div class="item der">
+                        <h4>Analista De Previsionales y Servicios Médicos</h4>
+                        <span class="casa">SEGUROS DE VIDA ALFA</span>
+                        <span class="fecha">SEPTIEMBRE 2022 - PRESENTE</span>
+                        <p>Bogotá D.C.</p>
+                        <div class="conectord">
+                            <div class="circulod">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Analista De Juntas</h4>
+                        <span class="casa">SEGUROS DE VIDA ALFA/ACCION PLUS</span>
+                        <span class="fecha">NOVIEMBRE 2021 - AGOSTO 2022</span>
+                        <p>Bogotá D.C.</p>
+                        <div class="conectord">
+                            <div class="circulod">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Analista De Incapacidades Seguridad Social</h4>
+                        <span class="casa">SEGUROS DE VIDA ALFA/MICHAEL PAGE</span>
+                        <span class="fecha">DICIEMBRE 2020 - NOVIEMBRE 2021</span>
+                        <p>Bogotá D.C.</p>
+                        <div class="conectord">
+                            <div class="circulod">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Analista De Acuerdos Con Proveedores</h4>
+                        <span class="casa">MPS MAYORISTA DE COLOMBIA</span>
+                        <span class="fecha">MARZO 2019 - MAYO 2020</span>
+                        <p>Cota - Cundinamarca</p>
+                        <div class="conectord">
+                            <div class="circulod">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Auxiliar De Acuerdos Con Proveedores</h4>
+                        <span class="casa">MPS MAYORISTA DE COLOMBIA</span>
+                        <span class="fecha">SEPTIEMBRE 2016 - MARZO 2019</span>
+                        <p>Cota - Cundinamarca</p>
+                        <div class="conectord">
+                            <div class="circulod">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Auxiliar Administrativo</h4>
+                        <span class="casa">PORVENIR</span>
+                        <span class="fecha">MARZO 2015 - DICIEMBRE 2015</span>
+                        <p>Bogotá D.C.</p>
+                        <div class="conectord">
+                            <div class="circulod">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portafolio" class="portafolio">
+        <div class="contenido-seccion">
+            <h2>Portafolio</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="Imagenes/Encriptador.PNG" alt="">
+                    <div class="overlay">
+                        <h3>Encriptador de Texto</h3>
+                        <p>HTML - CSS - JS</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="Imagenes/Barberia.PNG" alt="">
+                    <div class="overlay">
+                        <h3>Barberia Pagina Web</h3>
+                        <p>HTML - CSS</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="Imagenes/Responsive.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Responsive</h3>
+                        <p>Multiplataforma</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="Imagenes/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="Imagenes/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="Imagenes/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <form class="col" action="https://formsubmit.co/ysun1995@gmail.com" method="POST">
+                    <input type="text" name="name" id="" placeholder="Nombre">
+                    <input type="number" name="number" id="" placeholder="Numero de telefono">
+                    <input type="text" name="direccion" id="" placeholder="Direccion">
+                    <input type="text" name="tema" id="" placeholder="Tema">
+                    <textarea name="mensaje id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje <i class="fas fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </form>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="Imagenes/Ubicacion.jpg" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fas fa-map"></i>
+                                Bogotá - Engativa
+                            </li>
+                            <li>
+                                <i class="fas fa-mobile"></i>
+                                316-211-27-55
+                            </li>
+                            <li>
+                                <i class="fas fa-mail-bulk"></i>
+                                ysun1995@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="far fa-arrow-alt-circle-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/yhoanysun/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/YSUN199508" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
